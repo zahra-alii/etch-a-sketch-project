@@ -1,0 +1,162 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   width: 100%;
+   background-color: rgba(237, 248, 255, 0.8)
+}
+
+header h1{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   font-family: 'Pacifico', cursive;
+}
+
+ .grid-row {
+   display: flex;
+} 
+
+.grid-box{
+   width: 30px;
+   height: 30px;
+   border: 1px solid black;
+   background-color: white;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+.hidden {
+   display: none;
+}
+
+  #container {
+   padding-bottom: 50px;
+   margin: 0 auto;
+   border: 40px solid red;
+   border-radius: 5%;
+   margin-bottom: 50px;
+   padding:0;
+}
+
+.reset {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#error-message {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 20px;
+}
+
+#error-message {
+   display: none;
+}
+
+#setSizeBtn {
+  color:white;
+  background-color: #1f74dc;
+  margin-left: 5px;
+}
+
+#setSizeBtn:hover {
+   cursor: pointer;
+   background-color: #80b2e7;
+}
+
+
+::-webkit-input-placeholder {
+   color: rgb(158, 158, 158);
+}
+
+input{
+   padding: 10px;
+   color: rgb(87, 87, 87);
+}
+
+button {
+   width: 100px;
+   padding: 5px;
+   font-size: 20px;
+   border-radius: 12px;
+   font-weight: bold;
+   color: white;
+   border: 3px solid white;
+}
+
+.buttons {
+   margin: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+#clearBtn {
+   background-color: rgba(200, 50, 50, 0.8);
+   cursor: pointer;
+}
+
+#clearBtn:hover {
+   background-color: rgba(254, 139, 139, 0.971);
+}
+
+#eraseBtn {
+   background-color: rgba(100, 100, 255, 0.7);
+   cursor: pointer;
+}
+
+#eraseBtn:hover {
+   background-color: rgba(79, 79, 149, 0.7);
+   cursor: pointer;
+}
+
+
+#blackBtn {
+   background-color: black;
+   cursor: pointer;
+}
+
+#blackBtn:hover {
+   background-color: rgb(48, 44, 44);
+   cursor: pointer;
+}
+
+   #rainbowBtn {
+      background: linear-gradient(90deg,  
+        rgba(255, 0, 0, 0.8),
+        rgba(0, 255, 0, 0.8) 48%,  
+        rgba(0, 0, 255, 0.8) 64%,  
+        /* rgba(128, 0, 128, 0.8) 80%, */
+       rgba(255, 0, 255, 0.8) 100%
+      );
+      color: rgb(245, 245, 245);
+      cursor: pointer;
+}
+
+#rainbowBtn:hover {
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 247, 10);
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: auto;
+   padding: 30px;
+   font-weight: bold;
+   color: white;
+   background-color:#808080;
+}
+
